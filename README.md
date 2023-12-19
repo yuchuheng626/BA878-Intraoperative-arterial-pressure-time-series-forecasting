@@ -1,2 +1,6 @@
-# Intraoperative_arterial_pressure_time_series_forecasting
-BA878 Machine Learning and Data Infrastructure in Health Care
+# BA878 Machine Learning and Data Infrastructure in Health Care Final Project
+
+Intraoperative arterial pressure time series forecasting algorithm in preoperative hypertension patients
+Authors: Chuheng(Kevin) Yu, Xin(Ashely) Su, Weiming(Kevin) Wang, Tyler Christoforo*
+
+We present an in-depth analysis of forecasting intraoperative arterial pressure time series in patients with pre-existing hypertension. It draws inspiration from previous studies. By integrating deep learning methodologies, notably neural networks, and comparing their performance with traditional time series forecasting models like ARIMA and Facebook’s Prophet. The research is grounded in the application of the VitalDB dataset, a comprehensive collection of intraoperative biosignals. The data was then filtered and preprocessed to fit each model’s requirement. For performance, the MAE of ARIMA and SARIMA using 98 random events  is 34.27 and 18.20. The final average MAE of Prophet is 24.129. And the test results MAE of LSTM neural network model is 11.39. The findings underscore the neural network model's enhanced performance in terms of consistency and complexity. This demonstrates its potential for more accurate predictions and integration into medical devices, offering a substantial contribution to the field of medical informatics and patient care. The study's methodological rigor and practical implications underscore its value in advancing predictive analytics in healthcare settings.
